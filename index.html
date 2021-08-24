@@ -1,8 +1,7 @@
-<?php
+<!-- <?php
   require __DIR__ . '/src/app.php';
 
-?>
-
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,8 +10,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
@@ -39,7 +41,7 @@
           </ul>
 
           <div class="element-logo">
-            <img src="images/certify.png" alt="">
+            <img src="images/certify.png" alt="" />
           </div>
         </div>
       </div>
@@ -51,26 +53,24 @@
     <section class="gallery">
       <div class="gallery__wrapper">
         <div class="gallery__container">
-          <img src="images/natours.png" alt="">
+          <img src="images/natours.png" alt="" />
         </div>
         <div class="gallery__container">
-          <img src="images/trillo.png" alt="">
+          <img src="images/trillo.png" alt="" />
         </div>
         <div class="gallery__container">
-          <img src="images/gymcrop.png" alt="">
+          <img src="images/gymcrop.png" alt="" />
         </div>
         <div class="gallery__container">
-          <img src="images/omnifod.png" alt="">
+          <img src="images/omnifod.png" alt="" />
         </div>
         <div class="gallery__container">
-          <img src="images/nexter.png" alt="">
+          <img src="images/nexter.png" alt="" />
         </div>
         <div class="gallery__container">
-          <img src="images/candles.png" alt="">
+          <img src="images/candles.png" alt="" />
         </div>
-
       </div>
-
     </section>
 
     <section class="core-skills">
@@ -103,68 +103,72 @@
       <div class="container__header">
         <h2>Contact me below for more information!</h2>
       </div>
-    <ul class="contact__options">
-        <li> 
-            <a href="mailto:gkymantas@gmail.com" target="_BLANK">Email
-              <ion-icon name="mail-open-outline"></ion-icon>
-            </a>
-        </li>
-        <li> 
-          <a href="#" target="_BLANK">LinkedIn
-            <ion-icon name="logo-linkedin"></ion-icon>          </a>
-        </li>
-        <li> 
-          <a href="#" target="_BLANK">Github
-            <ion-icon name="logo-github"></ion-icon>          </a>
+      <ul class="contact__options">
+        <li>
+          <a href="mailto:gkymantas@gmail.com" target="_BLANK"
+            >Email
+            <ion-icon name="mail-open-outline"></ion-icon>
+          </a>
         </li>
         <li>
-          <a href="#" target="_BLANK">Twitter
-            <ion-icon name="logo-twitter"></ion-icon>          </a>
+          <a href="#" target="_BLANK"
+            >LinkedIn <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
         </li>
+        <li>
+          <a href="#" target="_BLANK"
+            >Github <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_BLANK"
+            >Twitter <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+      </ul>
 
-
-    </ul>        
-
-
-
-
-    <div class="form__container">
-      <form id="contact" action="index.php" method="post">
-        <input
-          class="input"
-          type="text"
-          placeholder="Your Name"
-          id="name"
-          required="required"
-          name="vardas"
-        />
-        <input
-          class="input-1"
-          type="email"
-          placeholder="Your Email"
-          id="email"
-          required="required"
-          name="email"
-        />
-        <textarea
-          placeholder="Your Message..."
-          name="message"
-          required
-        ></textarea>
-        <div class="knopke">
-          <button class="btn" type="submit" name="submit" id="contact-submit">
-            Submit
-          </button>
-        </div>
-      </form>
-    </div>
+      <div class="form__container">
+        <form id="contact" action="index.php" method="post">
+          <input
+            class="input"
+            type="text"
+            placeholder="Your Name"
+            id="name"
+            required="required"
+            name="vardas"
+          />
+          <input
+            class="input-1"
+            type="email"
+            placeholder="Your Email"
+            id="email"
+            required="required"
+            name="email"
+          />
+          <textarea
+            placeholder="Your Message..."
+            name="message"
+            required
+          ></textarea>
+          <div class="knopke">
+            <button class="btn" type="submit" name="submit" id="contact-submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </section>
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-<script src="../portfolio/jquery/index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../portfolio/jquery/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>
