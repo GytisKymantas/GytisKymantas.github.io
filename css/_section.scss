@@ -1,0 +1,76 @@
+/// section form
+.form__section {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(255deg, #ffce00 50%, #fff 50%);
+}
+
+.form__container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.input {
+  padding: 1rem;
+  width: 30rem;
+  background-image: linear-gradient(255deg, #ffce00 47.5%, #fff 0%);
+  border: 0.2rem solid black;
+  &::placeholder {
+    font-family: "Luckiest Guy", cursive;
+  }
+}
+.input-1 {
+  padding: 1rem;
+  width: 30rem;
+  background-image: linear-gradient(255deg, #ffce00 44%, #fff 0%);
+  border: 0.2rem solid black;
+  &::placeholder {
+    font-family: "Luckiest Guy", cursive;
+  }
+}
+textarea {
+  padding: 1rem;
+  width: 30rem;
+  background-image: linear-gradient(255deg, #ffce00 39.9%, #fff 6%); //#222
+  border: 0.2rem solid black;
+  &::placeholder {
+    font-family: "Luckiest Guy", cursive;
+  }
+}
+.btn {
+  padding: 1rem 2rem;
+  background: white;
+  color: gray;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.contact__options {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5rem;
+  margin-bottom: 5rem;
+
+  & li {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    & a {
+      display: Flex;
+      align-items: center;
+      font-family: "Luckiest Guy", cursive;
+      & ion-icon {
+        font-size: 2rem;
+        color: blue;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+.container__header {
+  margin-bottom: 5rem;
+  font-family: "Luckiest Guy", cursive;
+}
