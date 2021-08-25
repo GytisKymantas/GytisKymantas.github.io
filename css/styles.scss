@@ -56,7 +56,6 @@
   }
   .gallery__wrapper {
     grid-template-columns: 1fr;
-    gap: 0.5rem;
   }
   .element-content h1 {
     top: 15%;
@@ -110,23 +109,43 @@
   }
   .gallery__wrapper {
     grid-template-columns: 1fr;
-    gap: 0.5rem;
   }
   .element-content h1 {
     font-size: 4rem;
+    top: 25%; //25
+    left: 25%; //25
   }
   .element-content h2 {
-    top: 36%;
+    top: 41%;
     left: 50%;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
   .element-content ul {
-    top: 42%;
-    left: 53%;
-    font-size: 1.8rem;
+    top: 46%;
+    left: 57%;
+    font-size: 2.2rem;
   }
   .element-logo {
-    top: 53%;
-    left: 63%;
+    top: 51%;
+    left: 45%;
+
+    & img {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  .main__header {
+    clip-path: circle(50% at 50% 50%);
+  }
+  .input {
+    background-image: linear-gradient(255deg, #ffce00 49.1%, #fff 0%);
+  }
+
+  .input-1 {
+    background-image: linear-gradient(255deg, #ffce00 44.9%, #fff 0%);
+  }
+
+  textarea {
+    background-image: linear-gradient(255deg, #ffce00 39.9%, #fff 6%);
   }
 }

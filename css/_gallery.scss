@@ -1,11 +1,11 @@
 .gallery__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
 }
 .gallery__container {
   display: flex;
   justify-content: center;
+  border: 0.5 solid white;
 
   & img {
     height: 100%;
